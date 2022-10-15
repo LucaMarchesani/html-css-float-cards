@@ -75,5 +75,10 @@ a{
 .role{
     font-weight: lighter;
 }
+/* Bonus Hidden Footer*/
+blockquote{
+    padding-top: 3rem;
+    color: white;
+}
 
 
