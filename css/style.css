@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header{
+    text-align: center;
+}
+
+.header>h1{
+    padding: 2rem;
+    font-size: 2rem;
+    color: #e63371;
+}
+
+h1, h2{
+    font-family: 'Fredoka One', cursive;
+}
+
+h2{
+    padding-bottom: .3rem;
+}
+
+p{
+    font-size: .9rem;
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+.card{
+    margin: 3rem 1rem 0 ;
+    width: calc( (100% / 3) - 2rem );
+    background-color: #0f0e17;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card>img{
+    width: 5.5rem;
+}
+
+.info{
+    float: left;
+    margin: .8rem .8rem;
+    line-height: 1rem;
+    color: #f5f5f5;
+    font-size: .8rem;
+    font-family: 'Fredoka', sans-serif;
+}
+
+a{
+    color: #39b6f8;
+}
+
+.role{
+    font-weight: lighter;
+}
+
+
